@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lucky Sevens</title>
+    <!-- Latest compiled and minified CSS -->
+
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Righteous" rel="stylesheet">
+
+    <link href="LuckyStyleSheet.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="LuckySevens.js">
+
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
+
+</head>
+<!-- Internal Stylesheet -->
+<style>
+
+  th {
+  font-family: 'Righteous' cursive;
+  height: 40px; /* table spacing css rule no 2 height for header row */
+  font-size: 18pt;
+  }
+
+  tbody tr:nth-child(even) {
+      font-family: 'Righteous' cursive;
+      font-size: 14pt;
+      color: #303030;
+  }
+  tbody tr:nth-child(odd) {
+      font-family: 'Righteous' cursive;
+      font-size: 14pt;
+      color: #303030;
+  }
+
+  Body {
+  font-family: "Righteous" ,cursive;
+  font-size: 24pt;
+  color: brown;
+  {
+
+</style>
+
+<body onload="hideResults()">
+
+    <!-- Game Play - Betting -->
+
+<div id="gameDiv">
+
+    <h1>Lucky Sevens</h1>
+    <span>Starting Bet:<input type="number" name="Starting Bet" id="betInput" placeholder="$1 or More" step="1" min="1" required></span>
+        <br/>
+            <button onclick="play()" id="playButton">Place Bet</button>
+        </form>
+    </div>
+    <!-- GAMEPLAY RESULTS & REPLAY LOOP -->
+    <div id="results">
+        <table>
+        <caption><strong><h2>Results</h2><strong></caption>
+            <tr>
+                <th>Starting Bet</th>
+                <th id="resultsBet"></th>
+            </tr>
+            <tr>
+                <td>Total Rolls Before Going Broke</td>
+                <td id="resultsRollCounter"></td>
+            </tr>
+            <tr>
+                <td>Highest Amount Won</td>
+                <td id="resultsHighestHeld"></td>
+            </tr>
+            <tr>
+                <td>Roll Count at Highest Amount Won</td>
+                <td id="resultsRollsFromHighest"></td>
+            </tr>
+        </table>
+        <div>
+    </div>
+</html>

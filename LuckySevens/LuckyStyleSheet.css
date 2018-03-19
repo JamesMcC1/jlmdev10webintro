@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Site Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Monoton|Righteous" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script>
+</head>
+
+/* Color Pallete. Courtesy of colourlovers.com. Designer Arcele */
+/* Disco Days color pallette. Courtesy of colourlovers.com Disco Days by Arcele.
+/* Construction Zone. Hex #D4860A. By Arcele colourlovers.com
+/* Leisure Suit. Hex #D15C00 By Arcele Clourlovers.com
+/* Crusted Custard. Hex CE8351 By Arcele colourlovers.com
+/* Business Card Stock. Hex DBD3BE By Arcele colourlovers.com
+/* Def Pastel. Hex DEFDEF By Arcele Colourlovers.com */
+
+  <style>
+
+  Title {
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  H1 {
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+    color: #D15C00;
+    text-align: center;
+    text-shadow: 12px 12px 12px #CE8351; /* Crusted Custard. Hex CE8351 By Arcele colourlovers.com */
+
+  }
+    /* internal stylesheet call for Monton Font. Cursive */
+
+    H2 {
+      font-family: 'Monoton' cursive;
+      font-size: 40px;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+      color: #D4860A; /* Construction Zone. Hex #D4860A. By Arcele colourlovers.com */
+    }
+    table, th, td {
+    font-family: 'Righteous' cursive;
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px; /* top right bottom left */
+    border-spacing: 2px 5px;
+    }
+
+    table {
+    width: 75%;
+    background-color: Brown; /* table spacing css rule no 1. width */
+    }
+
+    th {
+    font-family: 'Righteous' cursive;
+    height: 40px; /* table spacing css rule no 2 height for header row */
+    background-color: #DBD3BE; /* Business Card Stock. Hex DBD3BE By Arcele colourlovers.com */
+    color: white;
+    text-align: center;
+    }
+
+  tbody tr:nth-child(even) {
+      font-family: 'Righteous' cursive;
+      background-color: #D15C00; /* Leisure Suit. Hex #D15C00 By Arcele Clourlovers.com */
+}
+  tbody tr:nth-child(odd) {
+      font-family: 'Righteous' cursive;
+    background-color: #D4860A; /* Construction Zone. Hex #D4860A. By Arcele colourlovers.com */
+}
+</style>
+</head>
+<body>
+<div id="footer">
+  <br>
+  <br>
+  <hr />
+<footer>
+</footer>
+</div>
+</body>
+</html>

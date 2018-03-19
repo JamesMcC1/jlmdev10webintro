@@ -1,0 +1,97 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+/* common elements across all pages */
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+/* site title */
+/* Color Palette. Calm Waters by Armstrong. */
+/* #D9c6c0. No more from this. By Katastrophexlove. Colourlovers.com */
+/* #7699B7. Mist. By Strangelibrarian. Colourlovers.com */
+/* #233245. Second-best Bed. By delic8. Colourlovers.com */
+/* #577470. Crystal Greenblue. By Armstrong. Colourlovers.com */
+/* #515151. Lovers Gray. By Colourlover. Clourlovers.com */
+/* Navigation Styling */
+/* unvisited link */
+/*
+/*title {
+/* font-family: 'Rubik', sans-serif;
+/*  font-size: 42pt;
+/*  color: #233245; /* #233245. Second-best Bed. By delic8. Colourlovers.com */
+/* } */
+.jumbotron{
+    position: relative;
+    font-family: 'rubik', sans-serif;
+    padding: 20px;
+    margin-top:20px;
+    background: blue;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+a:link {
+    color: green;
+}
+/* visited link */
+a:visited {
+  text-decoration: none;
+    color: #577470; /* #577470. Crystal Greenblue. By Armstrong. Colourlovers.com */
+}
+
+/* mouse over link */
+a:hover {
+  Font-size: 14pt;
+  text-decoration: none;
+  font-weight: bold;
+  color: #233245; /* #233245. Second-best Bed. By delic8. Colourlovers.com */
+}
+
+/* selected link */
+a:active {
+    color: white; /* #7699B7. Mist. By Strangelibrarian. Colourlovers.com */
+    text-decoration: none;
+}
+H1 {
+font-family: 'Rubik', sans-serif;
+font-size: 42pt;
+  text-align: center;
+color: #233245; /* #233245. Second-best Bed. By delic8. Colourlovers.com */
+line-height: 40px;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18pt;
+  line-height:40px;
+  color: #7699b7; /* #7699B7. Mist. By Strangelibrarian. Colourlovers.com */
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  color: 515151; /* #515151. Lovers Gray. By Colourlover. Clourlovers.com */
+  font-size: 14pt;
+}
+
+hr {
+  border-top: 3px solid #577470; /* #577470. Crystal Greenblue. By Armstrong. Colourlovers.com */
+border-bottom: 3px solid #577470; /* #577470. Crystal Greenblue. By Armstrong. Colourlovers.com */
+}
+
+/* footer sytling */
+footer {
+font-family: 'Rubik', sans-serif;
+color: #233245; /* #233245. Second-best Bed. By delic8. Colourlovers.com */
+text-decoration: none;
+text-align: center;
+font-weight: bold;
+font-size: 16pt;
+}
+
+</style>
